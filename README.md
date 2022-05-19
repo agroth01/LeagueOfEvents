@@ -26,5 +26,5 @@ leagueofevents.subscribe_to_event("onAbilityLevelUp", ability_level_up)
 
 ## Events
 
-    "onKill"
-    Called whenever the player gets a kill
+# onKill
+Called when the player's kill counter changes
