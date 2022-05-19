@@ -14,7 +14,6 @@ VERSION = "1.0.0"
 REQUIRED = [
     "requests",
     "urllib3",
-    "threading",
     "collections"
 ]
 
