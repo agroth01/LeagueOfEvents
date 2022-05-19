@@ -29,16 +29,80 @@ leagueofevents.subscribe_to_event("onAbilityLevelUp", ability_level_up)
 ## onKill
 > Called when the player gets a kill
 
-    returns: nothing
+    Returns: Nothing
+    
 
 ## onDeath
 > Called when the player dies
 
+    Returns: Nothing
+    
+
 ## onAssist
 > Called when the player gets an assist
+
+    Returns: Nothing
+    
 
 ## onLevelUp
 > Called when the player levels up
 
+    Returns: Nothing
+    
+
 ## onGoldGain
 > Called when the player gains gold
+
+    Returns: (int)Gold gained
+    
+
+## onGoldLost
+> Called when the player loses gold
+
+    Returns: (int)Gold lost
+    
+## onRespawn
+> Called when the player respawns
+
+    Returns: Nothing
+    
+## onAbilityLevelUp
+> Called when the player levels up an ability
+    
+    Returns: Ability
+    ```py
+    ability.name
+    ability.level
+    ability.key
+    ```
+    
+## onItemAdded
+> Called when the player gets a new item in their inventory
+    
+    Returns: Item
+    ```py
+    item.name
+    item.count
+    item.is_consumable
+    ```
+ 
+## onItemRemoved
+> Called when the player removes a item from their inventory
+    
+    Returns: Item
+    ```py
+    item.name
+    item.count
+    item.is_consumable
+    ```
+
+## onGameJoin
+> Called when the player first joins a game
+
+    Returns: Nothing
+    
+
+## onGameLeave
+> Called when the player leaves a game
+
+    Returns: Nothing
