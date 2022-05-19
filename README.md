@@ -70,21 +70,21 @@ leagueofevents.subscribe_to_event("onAbilityLevelUp", ability_level_up)
 > Called when the player levels up an ability
     
     Returns: Ability
-    ```py
-    ability.name
-    ability.level
-    ability.key
-    ```
+```py
+ability.name
+ability.level
+ability.key
+```
     
 ## onItemAdded
 > Called when the player gets a new item in their inventory
     
     Returns: Item
-    ```py
-    item.name
-    item.count
-    item.is_consumable
-    ```
+```py
+item.name
+item.count
+item.is_consumable
+```
  
 ## onItemRemoved
 > Called when the player removes a item from their inventory
