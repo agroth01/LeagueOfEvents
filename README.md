@@ -9,7 +9,7 @@ Install the [PyPI Package](https://github.com/agroth01/LeagueOfEvents):
 
     pip install leagueofevents
 
-# Examples
+## Examples
 Basic example:
 ```py
 import leagueofevents
@@ -23,3 +23,8 @@ def ability_level_up(ability):
 leagueofevents.subscribe_to_event("onDeath", my_death_function)
 leagueofevents.subscribe_to_event("onAbilityLevelUp", ability_level_up)
 ```
+
+## Events
+
+    "onKill"
+    Called whenever the player gets a kill
