@@ -14,7 +14,7 @@ VERSION = "1.0.5"
 REQUIRED = [
     "requests",
     "urllib3",
-    "collections"
+    "collections",
 ]
 
 setup(
