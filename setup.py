@@ -27,5 +27,6 @@ setup(
     url = URL,
     packages = ["leagueofevents"],
     long_description=long_description,
-    long_description_content_type="text/markdown"
+    long_description_content_type="text/markdown",
+    python_requires = ">=3.8"
 )
