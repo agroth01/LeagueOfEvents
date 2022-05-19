@@ -1,9 +1,0 @@
-setup.py
-LeagueOfEvents.egg-info/PKG-INFO
-LeagueOfEvents.egg-info/SOURCES.txt
-LeagueOfEvents.egg-info/dependency_links.txt
-LeagueOfEvents.egg-info/requires.txt
-LeagueOfEvents.egg-info/top_level.txt
-leagueofevents/__init__.py
-leagueofevents/api.py
-leagueofevents/events.py
