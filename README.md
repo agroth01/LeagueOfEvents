@@ -5,9 +5,9 @@ Create custom callbacks to various in game events made possible with the League 
 
 ## Installing
 
-Install the [PyPI Package](https://github.com/agroth01/LeagueOfEvents):
+Install the [PyPI Package](https://pypi.org/project/LeagueOfEvents/):
 
-    pip install leagueofevents
+    pip install LeagueOfEvents
 
 ## Examples
 Basic example:
