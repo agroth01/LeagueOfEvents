@@ -28,7 +28,7 @@ leagueofevents.subscribe_to_event("onAbilityLevelUp", ability_level_up)
 
 ## onKill
 > Called when the player gets a kill
-returns: nothing
+    returns: nothing
 
 ## onDeath
 > Called when the player dies
