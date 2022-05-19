@@ -10,7 +10,7 @@ Install the [PyPI Package](https://github.com/agroth01/LeagueOfEvents):
     pip install leagueofevents
 
 # Examples
-
+Basic example:
 ```py
 import leagueofevents
 
