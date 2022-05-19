@@ -8,7 +8,9 @@ AUTHOR = "Alexander Groth"
 VERSION = "0.5.0"
 REQUIRED = [
     "requests",
-    "urllib3"
+    "urllib3",
+    "threading",
+    "collections"
 ]
 
 setup(
