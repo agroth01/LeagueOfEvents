@@ -10,7 +10,7 @@ DESCRIPTION = "Create an event system for the League of Legends live game API"
 URL = "https://github.com/agroth01/LeagueOfEvents"
 EMAIL = "software.agroth@gmail.com"
 AUTHOR = "Alexander Groth"
-VERSION = "1.0.6"
+VERSION = "1.0.7"
 REQUIRED = [
     "requests",
     "urllib3",
