@@ -90,11 +90,11 @@ item.is_consumable
 > Called when the player removes a item from their inventory
     
     Returns: Item
-    ```py
-    item.name
-    item.count
-    item.is_consumable
-    ```
+```py
+item.name
+item.count
+item.is_consumable
+```
 
 ## onGameJoin
 > Called when the player first joins a game
