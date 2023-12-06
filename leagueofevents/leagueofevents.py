@@ -7,7 +7,7 @@ class Player:
     def __init__(self, game_data):
         self.game_data = game_data
 
-        self.summoner_name = self.game_data["activePlayer"]["summonerName"]
+        self.summoner_name = self.game_data["activePlayer"]["summonerName"].split("#")[0]
         self.abilities = self._load_abilities()
         self.score = self._load_score()
         self.champion = self._load_champion_stats()
